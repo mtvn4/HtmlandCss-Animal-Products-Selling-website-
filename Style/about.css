@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/imges/bgimage.jpeg) ;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+.main{
+    
+    padding:0 80px;
+}
+
+.his h4{
+    text-transform: uppercase;
+    background-color: chocolate;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+
+}
+.his{
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid orange;
+    text-align: center ;
+    border-radius: 10px;
+
+}
+.his p{
+    margin: 20px;
+    border:3px solid hsl(16, 100%, 50%);
+    border-radius: 5px;
+}
+
+.work{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+.work h5,h6{
+    text-transform: uppercase;
+    background-color: chocolate;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.work,.his {
+    background-color: rgb(240, 248, 255);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.emp{
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid hsl(16, 100%, 50%);
+    border-radius: 10px;
+}
+.nav1{
+    float: right;
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    border-width: 0 0 3px 0;
+    border-style: solid;
+    border-color: #e62908;
+}
+.nav1:hover{
+    border-color: aliceblue; 
+    color: #e62908;
+}
